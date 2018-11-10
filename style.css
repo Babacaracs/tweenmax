@@ -47,6 +47,7 @@ text-transform: uppercase;
 letter-spacing: 2px;
 color: rgb(7, 0, 0);
 }
+
 .overlay
 {
 z-index: 1;
@@ -58,7 +59,7 @@ background:url(bg1.jpg);
 
 .overlay p
 {
-    font-size: 300px;
+    font-size: 250px;
     font-weight: 800;
     top: 0%;
 left: 50%;
@@ -67,7 +68,7 @@ transform: translate(-50%,-50%);
 .mybtn
 {
 position: absolute;
-top: 50%;
+top: 60%;
 left: 50%;
 transform: translate(-50%,-50%);
 }
@@ -80,8 +81,8 @@ button
      font-weight: 700;
      font-size: 12px;
      letter-spacing: 5px;
-     color: white;
-     border: 2px solid white;
+     color: #fff;
+     border: 2px solid rgb(0, 0, 0);
      text-transform: uppercase;
      outline: none;
      overflow: hidden;
@@ -102,10 +103,11 @@ button
 .mybtn:hover:before
 {
     top:0;
+    
 }
 
 
-/* .mybtn:before
+ .mybtn:before
 {
     content: "";
     position: absolute;
@@ -116,7 +118,7 @@ button
     top: 100%;
     z-index: -1;
     transition: top 0.8s ease-out;
-} */
+} 
 
 
 .overlay-2
